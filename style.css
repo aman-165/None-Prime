@@ -1,0 +1,348 @@
+/*
+ * Global Reset and Base Styles
+ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: transparent !important;
+  /* Force transparent background */
+  color: white !important;
+  /* Default text color white */
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: serif;
+  /* Fallback font */
+  background: transparent !important;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  /* Preferred font */
+  background-color: #f5f5f5;
+  /* Light gray bg overrides earlier bg */
+  overflow-x: hidden !important;
+  overflow-y: scroll !important;
+  width: 100% !important;
+  height: 100% !important;
+
+}
+
+/*
+ * Navbar link styles
+ */
+.nav-link {
+  padding: 0.5rem 1rem;
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+.nav-link.active {
+  color: #00FFFF;
+  /* Cyan */
+  border-bottom: 2px solid #00FFFF;
+}
+
+html {
+  scroll-behavior: smooth !important;
+  /* Smooth scroll for anchor links */
+}
+
+section {
+  scroll-margin-top: 80px !important;
+  /* Spacing below navbar */
+}
+
+/*
+ * Custom cursor styling
+ */
+.cursor {
+  width: 30px !important;
+  top: -40px !important;
+  height: 30px !important;
+  border: 2px solid cyan;
+  border-radius: 100% !important;
+  position: fixed !important;
+  z-index: 999 !important;
+  text-align: center !important;
+  font-size: 5px !important;
+  text-shadow:
+    0 0 5px #0ff,
+    0 0 10px #0ff,
+    0 0 20px #0ff,
+    0 0 40px #0ff !important;
+  box-shadow:
+    0 0 5px #00FFFF,
+    0 0 10px #00FFFF,
+    0 0 20px #00FFFF,
+    0 0 40px #00FFFF !important;
+}
+
+#just {
+  overflow-x: hidden !important;
+}
+
+/*
+ * Tab navigation section
+ */
+.tab-wrapper {
+  background: transparent !important;
+  padding: 20px 0 !important;
+}
+
+.tab-container {
+  max-width: 1000px !important;
+  margin: 0 auto !important;
+  display: flex !important;
+  justify-content: space-around !important;
+  border-bottom: 1px solid #e1cbcb !important;
+  flex-wrap: wrap !important;
+}
+
+.tab {
+  padding-bottom: 12px !important;
+  font-size: 15px !important;
+  font-weight: 500 !important;
+  color: #6b7280 !important;
+  border-bottom: 4px solid transparent !important;
+  cursor: pointer !important;
+  transition: all 0.3s ease !important;
+}
+
+.tab.active {
+  color: #00FFFF !important;
+  font-weight: 600 !important;
+  border-bottom: 4px solid #111827 !important;
+}
+
+.tab:hover {
+  color: #00FFFF !important;
+}
+
+/* Responsive tab layout */
+@media (max-width: 600px) {
+  .tab-container {
+    justify-content: space-between ;
+    gap: 10px ;
+  }
+
+  .tab {
+    flex: 1 1 45% ;
+    text-align: center ;
+  }
+}
+
+/* Logo gradient text */
+.logo {
+  background: linear-gradient(120deg, orange, white, green);
+  background-clip: text;
+  color: transparent;
+}
+
+.hero-section {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Inputs */
+input {
+  outline: none;
+}
+
+/* Transparent glass shadow box */
+.transparent-shadow {
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+/* Hide scrollbar */
+::-webkit-scrollbar {
+  display: none !important;
+}
+
+/* Logo image handling */
+.logo img {
+  max-width: 100% !important;
+  height: auto !important;
+  display: block !important;
+  max-height: 60px !important;
+}
+
+.ops {
+  color: #111827 !important;
+}
+
+.Porse {
+  object-fit: cover !important;
+  overflow: hidden !important;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none !important;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none !important;
+  scrollbar-width: none !important;
+}
+
+/* Testimonial card style with focus effect */
+.testimonial-card {
+  width: 90% !important;
+  max-width: 300px !important;
+  aspect-ratio: 1 / 1 !important;
+  background-color: transparent !important;
+  padding: 1.5rem !important;
+  border-radius: 0.75rem !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+  border: 1px solid #e5e7eb !important;
+  flex-shrink: 0 !important;
+  scroll-snap-align: center !important;
+  box-sizing: border-box !important;
+  opacity: 0.5 !important;
+  filter: blur(1.5px) !important;
+  transform: scale(0.95) !important;
+  transition: all 0.3s ease !important;
+}
+
+.testimonial-card.active {
+  opacity: 1 !important;
+  filter: blur(0px) !important;
+  transform: scale(1.02) !important;
+  z-index: 10 !important;
+}
+
+.round img {
+  border-radius: 50% !important;
+}
+
+@media (min-width: 640px) {
+  .testimonial-card {
+    width: 300px;
+  }
+}
+
+/* Image zoom on hover */
+img {
+  transition: transform 0.9s ease;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+/* Button base style with glow on hover */
+button {
+  transition: transform 0.9s ease !important;
+  background-color: transparent !important;
+  color: white !important;
+  padding: 10px 20px !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3) !important;
+  border: none !important;
+  transition: box-shadow 0.3s ease !important;
+  cursor: pointer !important;
+}
+
+button:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4) !important;
+  background: #00FFFF !important;
+  transform: scale(1.1) !important;
+  color: #000 !important;
+  text-shadow:
+    0 0 5px #0ff,
+    0 0 10px #0ff,
+    0 0 20px #0ff,
+    0 0 40px #0ff !important;
+  box-shadow:
+    0 0 5px #00FFFF,
+    0 0 10px #00FFFF,
+    0 0 20px #00FFFF,
+    0 0 40px #00FFFF !important;
+}
+
+.ri-star-fill,
+.ri-star-half-line {
+  color: #FFD700 !important;
+  /* Gold star rating */
+}
+
+/* Fullscreen video background */
+.video-background {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  min-width: 100% !important;
+  min-height: 100% !important;
+  object-fit: cover !important;
+  z-index: -1 !important;
+}
+
+/* Overlay and content positioning */
+.content {
+  position: relative !important;
+  z-index: 2 !important;
+  text-align: center !important;
+  color: white !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 0;
+}
+
+/* Mobile View: Up to 767px */
+@media (max-width: 767px) {
+  body {
+    overflow-x: hidden !important;
+  }
+
+  .container,
+  .testimonial-wrapper,
+  .testimonial-card,
+  .your-custom-section {
+    /* replace with any specific sections if needed */
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
+
+  img,
+  video {
+    max-width: 100% !important;
+    height: auto !important;
+    display: block !important;
+  }
+
+  .hero-content {
+    text-align: center !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  /* .grid,
+  .flex {
+    flex-wrap: wrap !important;
+    overflow-x: hidden !important; 
+  } */
+
+  /* Optional spacing tweaks */
+  .px-10 {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+
+  }
+}

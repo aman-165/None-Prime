@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Fav Icon  -->
+  <link rel="icon" type="image/png" href="ParfectLogo (2).png">
+  <title>None Prime</title>
+  <!-- rimix icons  -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <!-- our css  -->
+  <link rel="stylesheet" href="output.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="input.css">
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+</head>
+
+
+
+<body class="overflow-x-hidden scroll-smooth bg-gray-200" >
+
+
+  <!-- header starat  -->
+  <header class="bg-gradient-to-r from-blue-600 via-blue-700 to-blue-800 text-white shadow-lg nav ">
+    <div class="cursor"></div>
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center navbar-brand">
+      <a href="" class="text-2xl logo">
+        <img  src="ParfectLogo (2).png" alt="" data-aos="fade-down">
+      </a>
+      <video autoplay muted loop class="video-background">
+        <source src="bmw-m4-liberty.1920x1080.mp4" type="video/mp4" />
+
+      </video>
+
+      <nav class="space-x-6 hidden lg:flex items-center">
+
+        <a class="nav-link" href="#home" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1100">Home</a>
+        <a class="nav-link" href="#work" data-aos="fade-down" data-aos-easing="linear"
+          data-aos-duration="1200">How-to-Works</a>
+        <a class="nav-link" href="#cars" data-aos="fade-down" data-aos-easing="linear"
+          data-aos-duration="1300">Popular-Cars</a>
+        <a class="nav-link" href="#us" data-aos="fade-down" data-aos-easing="linear"
+          data-aos-duration="1400">Why-choose-us</a>
+        <a class="nav-link" href="#reviw" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+          Testimonials</a>
+
+        <span data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1550">|</span>
+        <a href="" class="border px-4 py-2 rounded-md hover:bg-black hover:text-white" data-aos="fade-down"
+          data-aos-easing="linear" data-aos-duration="1600">Register</a>
+        <a href="" class="border px-4 py-2 rounded-md hover:bg-black hover:text-white" data-aos="fade-down"
+          data-aos-easing="linear" data-aos-duration="1700">Login</a>
+      </nav>
+      <div class="flex items-center space-x-3 lg:hidden" data-aos="fade-down" data-aos-easing="linear"
+        data-aos-duration="1300">
+        <button class="border px-4 py-2 rounded-md hover:bg-black hover:text-white">Login</button>
+        <button class="border px-4 py-2 rounded-md hover:bg-black hover:text-white">Sign up</button>
+      </div>
+    </div>
+  </header>
+  <!-- header end  -->
+
+  <!--=======Hero Sestion Start=======-->
+  <!-- <section class="transparent-shadow  hero-section mb-8" id="home"> -->
+  <section class="grid grid-cols-1 md:grid-cols-2 items-center justify-between gap-8 md:gap-4 px-2 md:px-6" id="home">
+    <div class="container mx-auto px-4 py-20 w-full">
+      <div class="max-w-xl">
+        <p class="text-black-400  font-medium" data-aos="fade-right" data-aos-duration="1100">Welcome to</p>
+        <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4" data-aos="fade-right" data-aos-duration="1300">
+          None
+          Prime Car Showroom</h1>
+        <p class="text-gray-600 mb-8 " data-aos="fade-right" data-aos-duration="1500">Experience luxury, performance,
+          and
+          innovation with every drive. Browse premium
+          cars tailored for those who demand more.
+        </p>
+        <div class="space-x-3" data-aos="fade-up" data-aos-duration="1600">
+          <button class="border px-4 py-2 rounded-md hover:bg-black hover:text-white glow glow-button glow-box">Explore
+            Cars</button>
+          <button class="border px-4 py-2 rounded-md hover:bg-white hover:text-black glow glow-button glow-box">Book a
+            Test Drive</button>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!--=======Hero Sestion End========-->
+
+  <!--=======Pick Up Date Sestion Start========-->
+  <section
+    class="transparent-shadow  bg-gradient-to-r from-blue-600 via-blue-700 to-blue-800 text-white shadow-lg-mt-16 py-8 rounded-lg shadow-md max-w-5xl mx-auto px-6 mb-6">
+
+
+
+    <form class="grid grid-cols-1 md:grid-cols-5 gap-4">
+      <div class="md:col-span-1" data-aos="fade-up" data-aos-duration="1100">
+        <label class="block text-sm font-medium text-gray-700 mb-1">
+          <input type="radio" name="" id=""> Location</label>
+        <div class="relative">
+          <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+            <div class="w-5 h-5 flex items-center justify-center text-gray-400">
+              <i class="ri-map-pin-line"></i>
+            </div>
+          </div>
+          <input type="text" class="pl-10 w-full border border-gray-300 rounded py-2 px-3 text-sm"
+            placeholder="Pick-up location" />
+        </div>
+      </div>
+
+
+      <div class="md:col-span-1" data-aos="fade-up" data-aos-duration="1400">
+        <label class="block text-sm font-medium text-gray-700 mb-1">Pick-up Date</label>
+        <div class="relative">
+          <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+            <div class="w-5 h-5 flex items-center justify-center text-gray-400">
+              <i class="ri-calendar-line"></i>
+            </div>
+          </div>
+          <input type="date" class="pl-10 w-full border border-gray-300 rounded py-2 px-3 text-sm" value="2025-05-19" />
+        </div>
+      </div>
+      <div class="md:col-span-1" data-aos="fade-up" data-aos-duration="1600">
+        <label class="block text-sm font-medium text-gray-700 mb-1">Return Date</label>
+        <div class="relative">
+          <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+            <div class="w-5 h-5 flex items-center justify-center text-gray-400">
+              <i class="ri-calendar-line"></i>
+            </div>
+          </div>
+          <input type="date" class="pl-10 w-full border border-gray-300 rounded py-2 px-3 text-sm" value="2025-05-26" />
+        </div>
+      </div>
+      <div class="md:col-span-1" data-aos="fade-up" data-aos-duration="1800">
+        <label class="block text-sm font-medium text-gray-700 mb-1">Car Type</label>
+        <div class="relative">
+          <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+            <div class="w-5 h-5 flex items-center justify-center text-gray-400">
+              <i class="ri-car-line"></i>
+            </div>
+          </div>
+          <div class="relative">
+            <select
+              class="pl-10 pr-8 w-full border border-gray-300 rounded py-2 px-3 text-sm appearance-none text-black">
+              <option class="ops">All Car Types</option>
+              <option class="ops">Sedan</option>
+              <option class="ops">SUV</option>
+              <option class="ops">Luxury</option>
+              <option class="ops">Van</option>
+            </select>
+            <div class="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none">
+              <div class="w-5 h-5 flex items-center justify-center text-gray-400">
+                <i class="ri-arrow-down-s-line"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="md:col-span-1" data-aos="fade-up" data-aos-duration="2000">
+        <label class="block text-sm font-medium text-gray-700 mb-1 opacity-0">Search</label>
+        <button class="border px-4 py-2 rounded-md hover:bg-black hover:text-white">
+          Search
+        </button>
+      </div>
+    </form>
+
+  </section>
+  <!--=======Pick Up Date Sestion End========-->
+
+
+
+  <!--=======How Is Work Sestion Start=======-->
+  <section class="transparent-shadow  bg-gradient-to-r from-indigo-800 via-indigo-900 to-indigo-950 text-white"
+    id="work">
+    <div class="container mx-auto px-4">
+      <h2 class="text-center mb-2 text-4xl" data-aos="fade-up" data-aos-duration="900"
+        data-aos-anchor-placement="center-bottom">How It works</h2>
+      <div class="line"></div>
+      <p class="text-center mb-12" data-aos="fade-up" data-aos-duration="1100"
+        data-aos-anchor-placement="center-bottom"> A simple, fast, and transparent process
+        to help you drive your dream car without the
+        hassle.</p>
+      <div class="border relative grid grid-cols-1 md:grid-cols-3 gap-12 items-center justify-center pt-6 pb-6">
+        <div class="text-center relative ">
+          <div class="w-16 h-16 bg-blue-100 rounded-full mx-auto flex items-center justify-center ">
+            <i class="ri-search-eye-line text-primary text-2xl text-yellow" data-aos="fade-down"
+              data-aos-duration="500"></i>
+          </div>
+          <h3 class="text-lg font-semibold mb-2" data-aos="fade-down" data-aos-duration="700">Browse Inventory</h3>
+          <p class="text-gray-600 text-sm mb-6" data-aos="fade-down" data-aos-duration="900">Explore our wide range of
+            luxury, electric, and pre-owned vehicles.</p>
+          <svg class="hidden md:block absolute top-[32px] right-[-110px] w-[220px] h-[80px] z-0" viewBox="0 0 220 80"
+            fill="none" xmlns="http://www.w3.org/2000/svg" data-aos="fade-right" data-aos-offset="1000"
+            data-aos-easing="ease-in-sine">
+            <path d="M0,40 C60,0 160,80 220,40" stroke="#93c5fd" stroke-width="2" fill="none" />
+          </svg>
+        </div>
+        <div>
+          <div class="text-center relative ">
+            <div class="w-16 h-16 bg-blue-100 rounded-full mx-auto flex items-center justify-center">
+              <i class="ri-steering-2-line text-primary text-2xl" data-aos="fade-down" data-aos-duration="500"></i>
+            </div>
+            <h3 class="text-lg font-semibold mb-2" data-aos="fade-down" data-aos-duration="700">Book a Test Drive</h3>
+            <p class="text-gray-600 text-sm mb-6" data-aos="fade-down" data-aos-duration="900">Choose a car you like and
+              schedule a test drive at your convenience.
+            </p>
+            <svg class="hidden md:block absolute top-[32px] right-[-110px] w-[220px] h-[80px] z-0" viewBox="0 0 220 80"
+              fill="none" xmlns="http://www.w3.org/2000/svg" data-aos="fade-right" data-aos-offset="1000"
+              data-aos-easing="ease-in-sine">
+              <path d="M0,40 C60,0 160,80 220,40" stroke="#93c5fd" stroke-width="2" fill="none" />
+            </svg>
+          </div>
+        </div>
+        <div>
+          <div class="text-center relative ">
+            <div class="w-16 h-16 bg-blue-100 rounded-full mx-auto flex items-center justify-center">
+              <i class="ri-hand-coin-line text-primary text-2xl" data-aos="fade-down" data-aos-duration="500"></i>
+            </div>
+            <h3 class="text-lg font-semibold mb-2" data-aos="fade-down" data-aos-duration="700">Make It Yours</h3>
+            <p class="text-gray-600 text-sm mb-6" data-aos="fade-down" data-aos-duration="900">Get assistance with
+              financing and complete the purchase smoothly.</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--=======How Is Work Sestion End=======-->
+
+  <!--=======Most Popular Sesction Start=======-->
+  <section class="transparent-shadow  py-20 g-blue-50 text-gray-900" id="cars">
+    <div class="container mx-auto px-4">
+      <h1 class="text-4xl font-bold text-center mb-2" data-aos="fade-down" data-aos-duration="700">Most Popular Cars
+      </h1>
+      <p class="text-gray-600 text-center mb-8" data-aos="fade-down" data-aos-duration="900"> Discover our best-selling
+        cars loved by customers for their style,
+        performance, and value.
+      </p>
+
+      <div class="tab-wrapper">
+        <div class="tab-container" id="tabs">
+          <a class="tab active" data-aos="fade-down" data-aos-duration="900" href="#lam">Popular</a>
+          <a class="tab" data-aos="fade-down" data-aos-duration="1200" href="#mca">Large Car</a>
+          <a class="tab" data-aos="fade-down" data-aos-duration="1500" href="#tsl">Small Car</a>
+          <a class="tab" data-aos="fade-down" data-aos-duration="1700" href="#exc">Exclusive Car</a>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 my-4">
+        <div
+          class="bg-gradient-to-r from-indigo-800 via-indigo-900 to-indigo-950 text-white rounded-lg shadow-md p-4 hover:shadow-lg transition"
+          data-aos="flip-down" data-aos-duration="800">
+          <div class="h-40 bg-blue-50 text-gray-900 rounded-md mb-4 flex items-center justify-center">
+            <img class="rounded-md" src="https://wallpapercave.com/wp/wp9355836.jpg" alt="" id="lam">
+          </div>
+          <h3>Lamborghini Huracán</h3>
+          <p>₹3.2 Crore</p>
+          <button class="border px-4 py-2 rounded-md hover:bg-black hover:text-white mt-6 mb-6">View Details</button>
+        </div>
+        <div
+          class="bg-gradient-to-r from-indigo-800 via-indigo-900 to-indigo-950 text-white rounded-lg shadow-md p-4 hover:shadow-lg transition"
+          data-aos="flip-down" data-aos-duration="1100">
+          <div class="h-40 bg-gray-100 rounded-md mb-4 flex items-center justify-center">
+            <img class="rounded-md" src="https://wallpapercave.com/wp/wp12485719.jpg" alt="">
+          </div>
+          <h3>BMW i8</h3>
+          <p>₹2.6 Crore</p>
+          <button class="border px-4 py-2 rounded-md hover:bg-black hover:text-white mt-6 mb-6">View Details</button>
+        </div>
+        <div
+          class="bg-gradient-to-r from-indigo-800 via-indigo-900 to-indigo-950 text-white rounded-lg shadow-md p-4 hover:shadow-lg transition"
+          data-aos="flip-down" data-aos-duration="1200">
+          <div class="h-40 bg-gray-100 rounded-lg mb-4 flex items-center justify-center">
+            <img class="rounded-md" src="https://wallpapercave.com/wp/wp6645481.jpg" alt="" id="mca">
+          </div>
+          <h3>Mercedes AMG GT</h3>
+          <p>₹2.3 Crore</p>
+          <button class="border px-4 py-2 rounded-md hover:bg-black hover:text-white mt-6 mb-6">View Details</button>
+        </div>
+        <div
+          class="bg-gradient-to-r from-indigo-800 via-indigo-900 to-indigo-950 text-white rounded-lg shadow-md p-4 hover:shadow-lg transition"
+          data-aos="flip-down" data-aos-duration="1400">
+          <div class="h-40 bg-gray-100 rounded-lg mb-4 flex items-center justify-center">
+            <img class="rounded-md" src="https://wallpapercave.com/wp/wp9188716.jpg" alt="">
+          </div>
+          <h3>Audi R8</h3>
+          <p>₹2.5 Crore</p>
+          <button class="border px-4 py-2 rounded-md hover:bg-black hover:text-white mt-6 mb-6">View Details</button>
+        </div>
+        <div
+          class="bg-gradient-to-r from-indigo-800 via-indigo-900 to-indigo-950 text-white rounded-lg shadow-md p-4 hover:shadow-lg transition"
+          data-aos="flip-down" data-aos-duration="1600">
+          <div class="h-40 bg-gray-100 rounded-lg mb-4 flex items-center justify-center">
+            <img class="rounded-md" src="https://wallpaperaccess.com/full/353123.jpg" alt="" id="exc">
+          </div>
+          <h3>Rolls Royce Ghost</h3>
+          <p>₹7.0 Crore</p>
+          <button class="border px-4 py-2 rounded-md hover:bg-black hover:text-white mt-6 mb-6">View Details</button>
+        </div>
+        <div
+          class="bg-gradient-to-r from-indigo-800 via-indigo-900 to-indigo-950 text-white rounded-lg shadow-md p-4 hover:shadow-lg transition"
+          data-aos="flip-down" data-aos-duration="1800">
+          <div class="h-40 bg-gray-100 rounded-lg mb-4 flex items-center justify-center">
+            <img class="rounded-md"
+              src="https://images.ctfassets.net/s699s7kh1jys/VrvHPjMpmAwJavN2EHLWM/004c431f90fc8033d17fc7a0adbbe82f/porsche_911_wallpapers_carrera_t_desktop.jpg"
+              alt="">
+          </div>
+          <h3>Porsche 911 Turbo</h3>
+          <p>₹3.1 Crore</p>
+          <button class="border px-4 py-2 rounded-md hover:bg-black hover:text-white mt-6 mb-6">View Details</button>
+        </div>
+        <div
+          class="bg-gradient-to-r from-indigo-800 via-indigo-900 to-indigo-950 text-white rounded-lg shadow-md p-4 hover:shadow-lg transition"
+          data-aos="flip-down" data-aos-duration="2000">
+          <div class="h-40 bg-gray-100 rounded-lg mb-4 flex items-center justify-center">
+            <img class="rounded-md"
+              src="https://wallpapercat.com/w/middle-retina/1/0/6/1668921-2560x1600-desktop-hd-jaguar-f-type-wallpaper-image.jpg"
+              alt="" id="tsl">
+          </div>
+          <h3>Jaguar F-Type</h3>
+          <p>₹1.0 Crore</p>
+          <button class="border px-4 py-2 rounded-md hover:bg-black hover:text-white mt-6 mb-6">View Details</button>
+        </div>
+        <div
+          class="bg-gradient-to-r from-indigo-800 via-indigo-900 to-indigo-950 text-white rounded-lg shadow-md p-4 hover:shadow-lg transition"
+          data-aos="flip-down" data-aos-duration="2200"  >
+          <div class="h-40 bg-gray-100 rounded-lg mb-4 flex items-center justify-center">
+            <img class="rounded-md"
+              src="https://wallpapercat.com/w/middle-retina/d/f/c/9191-2560x1440-desktop-hd-tesla-model-s-background.jpg"
+              alt="">
+          </div>
+          <h3>Tesla Model S</h3>
+          <p>₹1.8 Crore</p>
+          <button class="border px-4 py-2 rounded-md hover:bg-black hover:text-white mt-6 mb-6">View Details</button>
+        </div>
+
+      </div>
+  </section>
+  <!--=======Most Popular Sesction End=======-->
+
+  <!--========Why Choose Us Sestion Start=======-->
+  <section class="transparent-shadow py-16" id="us">
+    <div class="container mx-auto px-4 border max-w-[1400px]">
+      <h1 class="text-4xl font-bold text-center mb-2 mt-6" data-aos="fade-down" data-aos-duration="1000">Why Choose Us
+      </h1>
+      <p class="text-center mb-6" data-aos="fade-down" data-aos-duration="1300">
+        Luxury, Loyalty, and Leading Service – All in One Place.
+      </p>
+
+      <div class="flex flex-col md:flex-row gap-8 items-center">
+        <!--===Image Section===-->
+        <div class="w-full md:w-1/2 bg-gray-200 rounded-lg flex items-center justify-center p-4">
+          <div class="w-full h-full flex items-center justify-center text-gray-400">
+            <img class="rounded-md Porse object-cover w-full max-h-[400px]" src="/vidio/wca.jpg" alt="" /
+              data-aos="fade-right" data-aos-duration="1000">
+          </div>
+        </div>
+
+        <!--===Text Section===-->
+        <div class="w-full md:w-1/2">
+          <div class="space-y-6 " data-aos="fade-left" data-aos-duration="1000">
+            <div class="flex">
+              <div class="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
+                <div class="w-6 h-6 flex items-center justify-center text-primary">
+                  <i class="ri-shield-check-line text-3xl text-blue-400"></i>
+                </div>
+              </div>
+              <div class="flex flex-col">
+                <h3 class="text-lg font-semibold mb-1">100% Secure Payments</h3>
+                <p class="text-gray-600">Your transactions are protected with top-grade security and encryption.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="space-y-6 mt-20" data-aos="fade-left" data-aos-duration="1400">
+            <div class="flex">
+              <div class="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
+                <div class="w-6 h-6 flex items-center justify-center text-primary">
+                  <i class="ri-car-line text-3xl text-blue-400"></i>
+                </div>
+              </div>
+              <div class="flex flex-col">
+                <h3 class="text-lg font-semibold mb-1">Certified Luxury Cars</h3>
+                <p class="text-gray-600">Every vehicle is rigorously inspected and comes with verified certification.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="space-y-6 mt-20" data-aos="fade-left" data-aos-duration="1800">
+            <div class="flex">
+              <div class="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
+                <div class="w-6 h-6 flex items-center justify-center text-primary">
+                  <i class="ri-customer-service-2-line text-3xl text-blue-400"></i>
+                </div>
+              </div>
+              <div class="flex flex-col">
+                <h3 class="text-lg font-semibold mb-1">24/7 Expert Support</h3>
+                <p class="text-gray-600">Our team is always here to help you make the right choice, anytime.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--========Why Choose Us Sestion End=======-->
+
+
+
+  <!--=====Two img sestio=====-->
+  <section class="transparent-shadow  py-16 bg-gray-50">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div
+          class="bg-gradient-to-r from-indigo-800 via-indigo-900 to-indigo-950 text-white p-8 rounded-md shadow-sm flex items-center justify-center">
+          <div class="w-full flex items-center justify-center text-gray-200">
+            <img class="rounded-md" src="/vidio/three.jpg" alt="" data-aos="flip-left" data-aos-duration="1500">
+          </div>
+        </div>
+        <div
+          class="bg-gradient-to-r from-indigo-800 via-indigo-900 to-indigo-950 text-white p-8 rounded-md shadow-sm flex items-center justify-center">
+          <div class="w-full flex items-center justify-center text-gray-200">
+            <img class="rounded-md" src="/vidio/four.jpg" alt="" data-aos="flip-right" data-aos-duration="1500">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!--=====Two img sestio=====-->
+
+
+
+
+  <!--=======Reviews Section Start=======-->
+  <section class="transparent-shadow py-16" id="reviw">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-2" data-aos="fade-up" data-aos-duration="1000">Trusted by Thousands
+        of Happy Customer</h2>
+      <p class="text-gray-600 text-center mb-12" data-aos="fade-up" data-aos-duration="1200">
+        Real stories from real drivers who chose None Prime for their luxury car experience.
+      </p>
+
+      <!-- Slider Wrapper -->
+      <div class="relative" id="just">
+        <!-- Actual Sliding Row -->
+        <div id="review-slider" class="flex overflow-x-auto scroll-smooth gap-6 no-scrollbar px-1 pb-4 ">
+
+          <!-- Repeatable Card -->
+
+          <!-- zero card  -->
+          <div
+            class="w-[90%] md:w-[32%] bg-white p-6 rounded-lg shadow-sm border border-gray-100 shrink-0 testimonial-card ">
+            <div class="flex justify-between items-center mb-4">
+              <div class="flex items-center">
+                <div class="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center mr-3">
+                  <!-- Profile Avatar -->
+                  <div
+                    class="w-20 h-20 mx-auto mb-4 rounded-full overflow-hidden border-4 border-white shadow-md round">
+                    <img
+                      src="https://img.freepik.com/premium-photo/man-wearing-green-dress_1106493-46298.jpg?ga=GA1.1.881440041.1752735234&semt=ais_hybrid&w=740&q=80"
+                      alt="User Photo" class="w-full h-full object-cover" />
+                  </div>
+
+
+                </div>
+              </div>
+              <div>
+                <h4>Aarya Patel</h4>
+                <p>Mumbai, India</p>
+              </div>
+            </div>
+            <div class="flex text-yellow-400 mb-2">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-half-line"></i>
+              <span class="ml-1 text-sm font-medium text-black">4.5</span>
+            </div>
+            <p class="text-gray-600">
+              "From booking to delivery, the process was flawless. I was impressed by the attention to detail and the
+              luxury selection offered by None Prime."
+            </p>
+          </div>
+          <!-- First card  -->
+          <div
+            class="w-[90%] md:w-[32%] bg-white p-6 rounded-lg shadow-sm border border-gray-100 shrink-0 testimonial-card">
+            <div class="flex justify-between items-center mb-4">
+              <div class="flex items-center">
+                <div class="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center mr-3">
+                  <div
+                    class="w-20 h-20 mx-auto mb-4 rounded-full overflow-hidden border-4 border-white shadow-md round">
+                    <img
+                      src="https://img.freepik.com/premium-photo/happy-confident-cool-middle-aged-business-man-smiling-mature-professional-businessman-wearing-green-shirt-stylish-eyeglasses-looking-aside-standing-isolated-gray-background_1028938-345912.jpg?ga=GA1.1.881440041.1752735234&semt=ais_hybrid&w=740&q=80"
+                      alt="User Photo" class="w-full h-full object-cover" />
+                  </div>
+
+                </div>
+              </div>
+              <div>
+                <h4>Ethan Walker</h4>
+                <p>New York, USA</p>
+              </div>
+            </div>
+            <div class="flex text-yellow-400 mb-2">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-line"></i>
+              <span class="ml-1 text-sm font-medium text-black">4.0</span>
+            </div>
+            <p class="text-gray-600">
+              "None Prime gave me the smoothest car buying experience I’ve ever had. The team handled everything with
+              professionalism, and the car exceeded my expectations!"
+            </p>
+          </div>
+          <!-- second card  -->
+          <div
+            class="w-[90%] md:w-[32%] bg-white p-6 rounded-lg shadow-sm border border-gray-100 shrink-0 testimonial-card">
+            <div class="flex justify-between items-center mb-4">
+              <div class="flex items-center">
+                <div class="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center mr-3">
+                  <div
+                    class="w-20 h-20 mx-auto mb-4 rounded-full overflow-hidden border-4 border-white shadow-md round">
+                    <img
+                      src="https://img.freepik.com/premium-photo/man-with-yellow-dress_1106493-163110.jpg?ga=GA1.1.881440041.1752735234&semt=ais_hybrid&w=740&q=80"
+                      alt="User Photo" class="w-full h-full object-cover" />
+                  </div>
+
+                </div>
+              </div>
+              <div>
+                <h4>Noah Jensen</h4>
+                <p>Copenhagen, Denmark</p>
+              </div>
+            </div>
+            <div class="flex text-yellow-400 mb-2">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-half-line"></i>
+              <i class="ri-star-line"></i>
+              <span class="ml-1 text-sm font-medium text-black">3.5</span>
+            </div>
+            <p class="text-gray-600">
+              "The sleek design and quality service at None Prime makes them a top-tier car showroom. The team was
+              responsive and transparent throughout."
+            </p>
+          </div>
+          <!-- third card  -->
+          <div
+            class="w-[90%] md:w-[32%] bg-white p-6 rounded-lg shadow-sm border border-gray-100 shrink-0 testimonial-card">
+            <div class="flex justify-between items-center mb-4">
+              <div class="flex items-center">
+                <div class="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center mr-3">
+                  <div
+                    class="w-20 h-20 mx-auto mb-4 rounded-full overflow-hidden border-4 border-white shadow-md round">
+                    <img
+                      src="https://img.freepik.com/premium-photo/smiley-woman-celebrating-st-patrick-s-day-design-st-patrick-celebrating-post_742418-20897.jpg?ga=GA1.1.881440041.1752735234&semt=ais_hybrid&w=740&q=80"
+                      alt="User Photo" class="w-full h-full object-cover" />
+                  </div>
+
+                </div>
+              </div>
+              <div>
+                <h4>Maria Gonzalez</h4>
+                <p>Madrid, Spain</p>
+              </div>
+            </div>
+            <div class="flex text-yellow-400 mb-2">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <span class="ml-1 text-sm font-medium text-black">5.0</span>
+            </div>
+            <p class="text-gray-600">
+              "I’ve dealt with many dealerships, but None Prime stands apart with their customer-first approach and
+              stunning collection."
+            </p>
+          </div>
+          <!--four  card  -->
+          <div
+            class="w-[90%] md:w-[32%] bg-white p-6 rounded-lg shadow-sm border border-gray-100 shrink-0 testimonial-card">
+            <div class="flex justify-between items-center mb-4">
+              <div class="flex items-center">
+                <div class="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center mr-3">
+                  <div
+                    class="w-20 h-20 mx-auto mb-4 rounded-full overflow-hidden border-4 border-white shadow-md round">
+                    <img
+                      src="https://img.freepik.com/premium-photo/man-enjoys-adventure-looks-camera-generated-by_1358627-36745.jpg?ga=GA1.1.881440041.1752735234&semt=ais_hybrid&w=740&q=80"
+                      alt="User Photo" class="w-full h-full object-cover" />
+                  </div>
+
+                </div>
+              </div>
+              <div>
+                <h4>Lucas Smith</h4>
+                <p>Sydney, Australia</p>
+              </div>
+            </div>
+            <div class="flex text-yellow-400 mb-2">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-line"></i>
+              <span class="ml-1 text-sm font-medium text-black">4.0</span>
+            </div>
+            <p class="text-gray-600">
+              "Absolutely thrilled with my new car! None Prime made everything simple, elegant, and luxurious from start
+              to finish."
+            </p>
+          </div>
+          <!-- fifth card  -->
+          <div
+            class="w-[90%] md:w-[32%] bg-white p-6 rounded-lg shadow-sm border border-gray-100 shrink-0 testimonial-card">
+            <div class="flex justify-between items-center mb-4">
+              <div class="flex items-center">
+                <div class="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center mr-3">
+                  <div
+                    class="w-20 h-20 mx-auto mb-4 rounded-full overflow-hidden border-4 border-white shadow-md round">
+                    <img
+                      src="https://img.freepik.com/premium-photo/international-day-education-celebration_978521-41375.jpg?ga=GA1.1.881440041.1752735234&semt=ais_hybrid&w=740&q=80"
+                      alt="User Photo" class="w-full h-full object-cover" />
+                  </div>
+
+                </div>
+              </div>
+              <div>
+                <h4>Fatima Al-Zahrani</h4>
+                <p>Riyadh, Saudi Arabia</p>
+              </div>
+            </div>
+            <div class="flex text-yellow-400 mb-2">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-half-line"></i>
+              <span class="ml-1 text-sm font-medium text-black">4,5</span>
+            </div>
+            <p class="text-gray-600">
+              "Buying my car from None Prime was the best decision. No hidden fees, amazing staff, and delivery on time
+              — just perfect!"
+            </p>
+          </div>
+          <!-- six card  -->
+          <div
+            class="w-[90%] md:w-[32%] bg-white p-6 rounded-lg shadow-sm border border-gray-100 shrink-0 testimonial-card">
+            <div class="flex justify-between items-center mb-4">
+              <div class="flex items-center">
+                <div class="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center mr-3">
+                  <div
+                    class="w-20 h-20 mx-auto mb-4 rounded-full overflow-hidden border-4 border-white shadow-md round">
+                    <img
+                      src="https://img.freepik.com/premium-photo/yellow-isolated-agricultural-labor-illustration_1077802-97116.jpg?ga=GA1.1.881440041.1752735234&semt=ais_hybrid&w=740&q=80"
+                      alt="User Photo" class="w-full h-full object-cover" />
+                  </div>
+
+                </div>
+              </div>
+              <div>
+                <h4>Oliver Müller</h4>
+                <p>Berlin, Germany</p>
+              </div>
+            </div>
+            <div class="flex text-yellow-400 mb-2">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-half-line"></i>
+              <i class="ri-star-line"></i>
+              <span class="ml-1 text-sm font-medium text-black">3.5</span>
+            </div>
+            <p class="text-gray-600">
+              "I was blown away by the customer support and attention I received. I’ve recommended None Prime to all my
+              friends."
+            </p>
+          </div>
+          <!-- seven card  -->
+          <div
+            class="w-[90%] md:w-[32%] bg-white p-6 rounded-lg shadow-sm border border-gray-100 shrink-0 testimonial-card">
+            <div class="flex justify-between items-center mb-4">
+              <div class="flex items-center">
+                <div class="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center mr-3">
+                  <div
+                    class="w-20 h-20 mx-auto mb-4 rounded-full overflow-hidden border-4 border-white shadow-md round">
+                    <img
+                      src="https://img.freepik.com/premium-photo/man-wearing-trendy-high-quality-relaxed-fit-thick-corduroy-fashion-photography_758367-121405.jpg?ga=GA1.1.881440041.1752735234&semt=ais_hybrid&w=740&q=80"
+                      alt="User Photo" class="w-full h-full object-cover" />
+                  </div>
+
+                </div>
+              </div>
+              <div>
+                <h4>Li Wei, Shanghai</h4>
+                <p>Shanghai, China</p>
+              </div>
+            </div>
+            <div class="flex text-yellow-400 mb-2">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-half-line"></i>
+              <span class="ml-1 text-sm font-medium text-black">4.5</span>
+            </div>
+            <p class="text-gray-600">
+              "The quality of cars and the ease of transaction make None Prime a leader in luxury cars. I’m beyond
+              satisfied."
+            </p>
+          </div>
+          <!-- eite card  -->
+          <div
+            class="w-[90%] md:w-[32%] bg-white p-6 rounded-lg shadow-sm border border-gray-100 shrink-0 testimonial-card">
+            <div class="flex justify-between items-center mb-4">
+              <div class="flex items-center">
+                <div class="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center mr-3">
+                  <div
+                    class="w-20 h-20 mx-auto mb-4 rounded-full overflow-hidden border-4 border-white shadow-md round">
+                    <img
+                      src="https://img.freepik.com/premium-photo/man-green-jacket-holds-laptop-front-green-screen_1232930-1611.jpg?ga=GA1.1.881440041.1752735234&semt=ais_hybrid&w=740&q=80"
+                      alt="User Photo" class="w-full h-full object-cover" />
+                  </div>
+
+                </div>
+              </div>
+              <div>
+                <h4> Sophia Dubois</h4>
+                <p>Paris, France</p>
+              </div>
+            </div>
+            <div class="flex text-yellow-400 mb-2">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <span class="ml-1 text-sm font-medium text-black">5.0</span>
+            </div>
+            <p class="text-gray-600">
+              "Super friendly staff and elite selection. My new vehicle from None Prime turns heads every time I drive
+              it!"
+            </p>
+          </div>
+          <!-- nine card  -->
+          <div
+            class="w-[90%] md:w-[32%] bg-white p-6 rounded-lg shadow-sm border border-gray-100 shrink-0 testimonial-card">
+            <div class="flex justify-between items-center mb-4">
+              <div class="flex items-center">
+                <div class="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center mr-3">
+                  <div
+                    class="w-20 h-20 mx-auto mb-4 rounded-full overflow-hidden border-4 border-white shadow-md round">
+                    <img
+                      src="https://img.freepik.com/premium-photo/man-with-yellow-dress_1106493-163107.jpg?ga=GA1.1.881440041.1752735234&semt=ais_hybrid&w=740&q=80"
+                      alt="User Photo" class="w-full h-full object-cover" />
+                  </div>
+
+                </div>
+              </div>
+              <div>
+                <h4>Joshua Brown</h4>
+                <p>Toronto, Canada</p>
+              </div>
+            </div>
+            <div class="flex text-yellow-400 mb-2">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <span class="ml-1 text-sm font-medium text-black">5.0</span>
+            </div>
+            <p class="text-gray-600">
+              "From the website to showroom visit, the entire experience felt personalized. I truly felt like a VIP with
+              None Prime."
+            </p>
+          </div>
+
+
+
+        </div>
+
+        <!-- Navigation Arrows -->
+        <div class="absolute top-1/2 -translate-y-1/2 w-full flex justify-between px-4 z-10">
+          <a onclick="scrollSlider(-1)" class="bg-white p-2 rounded-full shadow hover:bg-gray-100">
+            <i class="ri-arrow-left-line text-xl"></i>
+          </a>
+          <a onclick="scrollSlider(1)" class="bg-white p-2 rounded-full shadow hover:bg-gray-100">
+            <i class="ri-arrow-right-line text-xl"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--=======Reviews Section End=======-->
+
+
+  <!--=======Footer Section Start=======-->
+  <section>
+    <footer class="bg-gray-600 text-white pt-6 pb-8 text-center sm:text-left">
+      <div class="container mx-auto px-4">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+          <!-- Brand Info -->
+          <div>
+            <a href="#" class="text-2xl text-white font-bold mb-4 inline-block">None Prime</a>
+            <p class="text-gray-400 mb-4">
+              Redefining luxury on wheels. Explore world-class cars with unmatched elegance and performance.
+            </p>
+            <div class="flex space-x-4 justify-center">
+              <a href="#"
+                class="w-10 h-10 rounded bg-gray-700 flex items-center justify-center hover:bg-gray-900 transition-colors">
+                <i class="ri-facebook-fill text-xl"></i>
+              </a>
+              <a href="#"
+                class="w-10 h-10 rounded bg-gray-700 flex items-center justify-center hover:bg-gray-900 transition-colors">
+                <i class="ri-twitter-x-line text-xl"></i>
+              </a>
+              <a href="#"
+                class="w-10 h-10 rounded bg-gray-700 flex items-center justify-center hover:bg-gray-900 transition-colors">
+                <i class="ri-instagram-line text-xl"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- About -->
+          <div>
+            <h2 class="text-lg font-semibold mb-4">About</h2>
+            <ul class="space-y-3">
+              <li><a href="#" class="text-gray-400 hover:text-white">Our Story</a></li>
+              <li><a href="#" class="text-gray-400 hover:text-white">Leadership</a></li>
+              <li><a href="#" class="text-gray-400 hover:text-white">Luxury Promise</a></li>
+              <li><a href="#" class="text-gray-400 hover:text-white">Press</a></li>
+            </ul>
+          </div>
+
+          <!-- Services -->
+          <div>
+            <h2 class="text-lg font-semibold mb-4">Services</h2>
+            <ul class="space-y-3">
+              <li><a href="#" class="text-gray-400 hover:text-red">Privacy Policy</a></li>
+              <li><a href="#" class="text-gray-400 hover:text-white">Chauffeur Service</a></li>
+              <li><a href="#" class="text-gray-400 hover:text-white">Luxury Cars</a></li>
+              <li><a href="#" class="text-gray-400 hover:text-white">Need Help?</a></li>
+            </ul>
+          </div>
+
+          <!-- Newsletter -->
+          <!-- <div>
+            <h2 class="text-lg font-semibold mb-4">Join Newsletter</h2>
+            <p class="text-gray-400 mb-3 text-sm">Get the latest updates and offers.</p>
+            <form class="flex flex-col space-y-3">
+              <input type="email" placeholder="Enter your email"
+                class="px-3 py-2 rounded bg-gray-700 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-400">
+              <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white py-2 rounded">Subscribe</button>
+            </form>
+          </div> -->
+          <div class="space-y-3">
+            <h4 class="text-xl font-semibold mb-4">Contact Us</h4>
+            <p class="text-gray-400 mb-3 text-sm">Email: support@noneprime.com</p>
+            <p class="text-gray-400 mb-3 text-sm">Phone: +91 98765 43210</p>
+            <p class="text-gray-400">Location: New Delhi, India</p>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <!-- Bottom Bar -->
+      <!-- Footer Bottom -->
+      <div class="border-t border-gray-700 mt-8 pt-4 text-center text-gray-500 text-sm">
+        &copy; 2025 None Prime. All rights reserved.
+      </div>
+    </footer>
+
+  </section>
+  <!--=======Footer Section End=======-->
+
+  <!--=======OUR JS=======-->
+  <script src="app.js"></script>
+
+  <!--=======Swiper JS=======-->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <!--=======Gsap js=======-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+    integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!--=======AOS JS=======-->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,   // animation duration in ms
+      // once: true        // animate only once while scrolling
+    });
+  </script>
+
+</body>
+
+</html>
